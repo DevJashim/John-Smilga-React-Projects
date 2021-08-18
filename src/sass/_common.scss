@@ -1,0 +1,375 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+
+/*Global Styles*/
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $ff-primary;
+  background: $gray-9;
+  color: $black-1;
+  font-size: $fs-primary;
+  line-height: $lh-primary;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  margin-bottom: 1.5rem;
+}
+
+h1 {
+  font-size: 3.2rem;
+}
+h2 {
+  font-size: 2.4rem;
+}
+h3 {
+  font-size: 1.8rem;
+}
+h4 {
+  font-size: 1.6rem;
+}
+h5 {
+  font-size: 1.4rem;
+}
+h6 {
+  font-size: 1.1rem;
+}
+// image
+img {
+  max-width: 100%;
+  display: block;
+  object-fit: cover;
+}
+.round {
+  border-radius: 50%;
+}
+.round-img {
+  width: 8rem;
+  height: 8rem;
+  box-shadow: $bs;
+  border: 0.1rem solid $gray;
+  padding: 0.2rem;
+  border-radius: 50%;
+  transition: $transition-ease;
+}
+/* Cards */
+.card {
+  padding: 1rem;
+  border: $border-dotted;
+  margin: 0.7rem 0;
+}
+
+/* List */
+.list {
+  margin: 0.5rem 0;
+}
+
+.list li {
+  padding-bottom: 0.3rem;
+}
+
+//Header
+header {
+  background-color: $primary;
+}
+
+// Navbar
+
+nav,
+.nav,
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 7vh;
+  background-color: $primary;
+  color: $white;
+
+  .nav-links {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    align-items: center;
+
+    .nav-link {
+      color: $secondary;
+      font-size: 1.6rem;
+      font-weight: 500;
+      text-transform: capitalize;
+      margin-right: 3rem;
+      cursor: pointer;
+      &:hover {
+        color: $tertiary;
+      }
+    }
+    .active {
+      color: $tertiary;
+    }
+  }
+}
+.logo {
+  color: $secondary;
+  font-size: 3rem;
+}
+// Button
+
+button,
+.btn {
+  margin: 1rem;
+  display: inline-block;
+  background: $black-1;
+  border: 1px solid $black-1;
+  color: $white;
+  font-size: $fs-primary;
+  padding: 1rem;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  transition: $transition-linear;
+  // Button Hover
+  &:hover {
+    color: $black-1;
+    background: transparent;
+  }
+}
+
+.btn-primary {
+  display: inline-block;
+  background: $primary;
+  border: 1px solid $primary;
+  // Button Hover
+  &:hover {
+    color: $primary;
+    background: transparent;
+    border: 1px solid $primary;
+  }
+}
+.btn-secondary {
+  display: inline-block;
+  background: $secondary;
+  border: 1px solid $secondary;
+  // Button Hover
+  &:hover {
+    color: $secondary;
+    background: transparent;
+    border: 1px solid $secondary;
+  }
+}
+
+.btn-warning {
+  background-color: $yellow;
+  border: 1px solid $yellow;
+  &:hover {
+    color: $yellow;
+    background: transparent;
+    border: 1px solid $yellow;
+  }
+}
+.btn-danger {
+  background-color: $danger;
+  border: 1px solid $danger;
+
+  &:hover {
+    color: $danger;
+    background: transparent;
+  }
+}
+.btn-success {
+  background-color: $success;
+  border: 1px solid $success;
+
+  &:hover {
+    color: $success;
+    background: transparent;
+  }
+}
+.badge {
+  display: inline-block;
+  background: $black-3;
+  padding: 1rem;
+  font-weight: 600;
+  text-align: center;
+  margin: 1rem;
+  color: $white;
+  border-radius: 0.5rem;
+}
+.badge-success {
+  background-color: $success;
+}
+.badge-warning {
+  background-color: $warning;
+}
+.badge-danger {
+  background-color: $danger;
+}
+
+// Form
+form {
+  display: block;
+  max-width: 80rem;
+  min-width: 40rem;
+  margin: 0 auto;
+  background-color: $bg-secondary;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: $bs;
+}
+
+// Label
+label {
+  font-weight: 500;
+}
+// All Input
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+select,
+textarea {
+  display: block;
+  font-family: $ff-primary;
+  font-size: $fs-secondary;
+  width: 100%;
+  margin: 1.2rem 0;
+  padding: 0.8rem 1rem;
+  border: $border-light;
+  border-radius: 0.3rem;
+  &:focus {
+    color: $black-3;
+    background-color: $bg-secondary;
+    border-color: $border-primary;
+    outline: 0;
+  }
+}
+// Submit
+input[type="submit"] {
+  padding: 1rem;
+}
+
+// Table
+table {
+  border-spacing: 1;
+  border-collapse: collapse;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  max-width: 80rem;
+  width: 100%;
+  margin: 2rem auto;
+  thead {
+    tr {
+      border-bottom-width: 1px solid red;
+    }
+  }
+}
+
+/* section */
+
+.section-center {
+  margin: 0 auto;
+  max-width: $max-width;
+  padding: 0 2rem;
+}
+
+/* Utilities */
+.container {
+  max-width: $max-width;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+/* Center All */
+.center {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+.justify {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+/* Grid System*/
+.grid-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1.5rem;
+}
+
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1.5rem;
+}
+
+.grid-4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1.5rem;
+}
+// Auto Grid System
+.grid-auto {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, clamp(20rem, 50%, 25rem));
+  grid-gap: 1.5rem;
+  justify-content: center;
+  align-items: center;
+}
+My Grid System
+/* col-4 start */
+.col-4 {
+  display: grid;
+  grid-gap: 1.5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+/*start media Query*/
+.col:first-child {
+  margin-left: 0;
+}
+
+.col:last-child {
+  margin-right: 0;
+}
+
+@media (min-width: 480px) {
+  .col-4 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 768px) {
+  .col-4 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 992px) {
+  .col-4 {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+/* col-4 end */

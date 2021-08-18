@@ -1,0 +1,326 @@
+// Variables
+// Variable Color
+$primaryColor: #f15025;
+$mainWhite: #fff;
+$mainBlack: #222;
+$mainGrey: #9e9e9e;
+$mainRed: #d50000;
+$mainGreen: #4caf50;
+
+//  primary/main color
+$primary: #fb4c1f;
+$secondary: #ff9100;
+$tertiary: #bcffa0;
+//********** All Colors****************
+
+$success: #198754;
+$warning: #ffc107;
+$info: #0dcaf0;
+$light: #f8f9fa;
+$dark: #212529;
+$silver: #c0c0c0;
+$olive: #808000;
+$cyan: #00ffff;
+$purple: #800080;
+$magenta: #ff00ff;
+$brown: #a52a2a;
+$maroon: #800000;
+
+//********** All Colors Shade ****************
+// White
+$white: #ffffff;
+$white-1: #e5e5e5;
+$white-2: #cccccc;
+$white-3: #b2b2b2;
+$white-4: #999999;
+$white-5: #7f7f7f;
+$white-6: #666666;
+$white-7: #4c4c4c;
+$white-8: #333333;
+$white-9: #191919;
+
+// Black
+$black: #000000;
+$black-1: #1f1f1f;
+$black-2: #222;
+$black-3: #333;
+$black-4: #444;
+$black-5: #555;
+$black-6: #666;
+$black-7: #777;
+$black-8: #888;
+$black-9: #999;
+
+// Gray Deep
+$gray-d1: #808080;
+$gray-d2: #737373;
+$gray-d3: #666666;
+$gray-d4: #595959;
+$gray-d5: #4c4c4c;
+$gray-d6: #404040;
+$gray-d7: #333333;
+$gray-d8: #222222;
+// Gray Color
+$gray: #808080;
+// Gray Light
+$gray-1: #8c8c8c;
+$gray-2: #a1a1a1;
+$gray-3: #a6a6a6;
+$gray-4: #b9b9b9;
+$gray-5: #cccccc;
+$gray-6: #e7e7e7;
+$gray-7: #e9e9e9;
+$gray-8: #ececec;
+$gray-9: #f2f2f2;
+
+//  Gold Deep
+$gold-d1: #ffcf40;
+$gold-d2: #ffc209;
+$gold-d3: #fabb00;
+$gold-d4: #ebb000;
+$gold-d5: #dba501;
+$gold-d6: #d19d00;
+
+// Gold
+$gold: #ffd700;
+// Gold Light
+$gold-1: #ffdb19;
+$gold-2: #ffdf32;
+$gold-3: #ffe34c;
+$gold-4: #ffe766;
+$gold-5: #ffeb7f;
+$gold-6: #ffef99;
+$gold-7: #fff3b2;
+$gold-8: #fff7cc;
+
+// Danger
+$danger-d9: #640202;
+$danger-d8: #680707;
+$danger-d7: #6b0707;
+$danger-d6: #6e0909;
+$danger-d5: #790d0d;
+$danger-d4: #810e0e;
+$danger-d4: #830c24;
+$danger-d3: #990e2a;
+$danger-d2: #af1030;
+$danger-d1: #c51236;
+$danger: #db143c;
+$danger-1: #de2b4f;
+$danger-2: #e24262;
+$danger-3: #e55a76;
+$danger-4: #e9728a;
+$danger-5: #ed899d;
+$danger-6: #f0a1b1;
+$danger-7: #f4b8c4;
+$danger-8: #f7d0d8;
+$danger-9: #fbe7eb;
+
+// 7. Rainbow Color Shading
+
+// 1. Red Deep
+
+$red-d1: #e50000;
+$red-d2: #cc0000;
+$red-d3: #b20000;
+$red-d4: #990000;
+$red-d5: #7f0000;
+$red-d6: #660000;
+$red-d7: #4c0000;
+$red-d8: #330000;
+$red-d9: #190000;
+//  Red
+$red: #ff0000;
+// Red Light
+$red-1: #ff1919;
+$red-2: #ff3232;
+$red-3: #ff4c4c;
+$red-4: #ff6666;
+$red-5: #ff7f7f;
+$red-6: #ff9999;
+$red-7: #ffb2b2;
+$red-8: #ffcccc;
+$red-9: #ffe5e5;
+
+// 2. Orange deep
+$orange-d9: #332100;
+$orange-d8: #4c3100;
+$orange-d7: #664200;
+$orange-d6: #7f5200;
+$orange-d5: #996300;
+$orange-d4: #b27300;
+$orange-d3: #cc8400;
+$orange-d2: #e59400;
+$orange-d1: #ffa500;
+
+//4. Orange
+$orange: #ffa500;
+// Orange light
+$orange-1: #ffae19;
+$orange-2: #ffb732;
+$orange-3: #ffc04c;
+$orange-4: #ffc966;
+$orange-5: #ffd27f;
+$orange-6: #ffdb99;
+$orange-7: #ffe4b2;
+$orange-8: #ffedcc;
+$orange-9: #fff6e5;
+
+// 3. Blue Deep
+$blue-d1: #0000ff;
+$blue-d2: #0000e5;
+$blue-d3: #0000cc;
+$blue-d4: #0000b2;
+$blue-d5: #000099;
+$blue-d6: #00007f;
+$blue-d7: #000066;
+$blue-d8: #00004c;
+$blue-d9: #000033;
+//  Blue
+$blue: #0000ff;
+// Blue Light
+$blue-1: #3232ff;
+$blue-2: #4c4cff;
+$blue-3: #6666ff;
+$blue-4: #7f7fff;
+$blue-5: #9999ff;
+$blue-6: #b2b2ff;
+$blue-7: #ccccff;
+$blue-8: #e5e5ff;
+
+//4. Green Deep
+$green-d1: #007300;
+$green-d2: #007300;
+$green-d3: #006600;
+$green-d4: #005900;
+$green-d5: #004c00;
+$green-d6: #004000;
+$green-d7: #003300;
+// Green
+$green: #008000;
+// Green Light
+$green-1: #198c19;
+$green-2: #329932;
+$green-3: #4ca64c;
+$green-4: #66b266;
+$green-5: #7fbf7f;
+$green-6: #99cc99;
+$green-7: #b2d8b2;
+$green-8: #cce5cc;
+$green-9: #e5f2e5;
+
+// 5. Yellow Deep
+$yellow-d1: #ffff00;
+$yellow-d2: #e5e500;
+$yellow-d3: #cccc00;
+$yellow-d4: #b2b200;
+$yellow-d5: #999900;
+$yellow-d6: #7f7f00;
+$yellow-d7: #666600;
+$yellow-d8: #4c4c00;
+$yellow-d9: #333300;
+// Yellow
+$yellow: #ffff00;
+// Yellow Light
+$yellow-1: #ffff19;
+$yellow-2: #ffff32;
+$yellow-3: #ffff4c;
+$yellow-4: #ffff66;
+$yellow-5: #ffff7f;
+$yellow-6: #ffff99;
+$yellow-7: #ffffb2;
+$yellow-8: #ffffcc;
+$yellow-9: #ffffdb;
+$yellow-10: #ffffea;
+
+// 6. Deep Indigo
+$indigo-d1: #4b0082;
+$indigo-d2: #430075;
+$indigo-d3: #3c0068;
+$indigo-d4: #34005b;
+$indigo-d5: #2d004e;
+$indigo-d6: #250041;
+$indigo-d7: #1e0034;
+// Indigo
+$indigo: #4b0082;
+// Light Indigo
+$indigo-1: #5d198e;
+$indigo-2: #6e329b;
+$indigo-3: #814ca7;
+$indigo-4: #9366b4;
+$indigo-5: #a57fc0;
+$indigo-6: #b799cd;
+$indigo-7: #c9b2d9;
+$indigo-8: #dbcce6;
+$indigo-9: #ede5f2;
+
+// 7. Violet Deep
+$violet-d1: #ee82ee;
+$violet-d2: #d675d6;
+$violet-d3: #be68be;
+$violet-d4: #a65ba6;
+$violet-d5: #8e4e8e;
+$violet-d6: #774177;
+$violet-d7: #5f345f;
+$violet-d8: #472747;
+$violet-d9: #2f1a2f;
+//  Violet
+$violet: #ee82ee;
+// Violet Light
+$violet-1: #ef8eef;
+$violet-2: #f19bf1;
+$violet-3: #f3a7f3;
+$violet-4: #f4b4f4;
+$violet-5: #f6c0f6;
+$violet-6: #f8cdf8;
+$violet-7: #f9d9f9;
+$violet-8: #fbe6fb;
+$violet-9: #fdf2fd;
+
+//  Font Family
+$ff-primary: "Roboto", sans-serif;
+$ff-secondary: "Open Sans", sans-serif;
+
+// Font Size
+$fs-primary: 1.6rem;
+$fs-secondary: 1.4rem;
+$fs-heading: 3.4rem;
+
+// Line Hight
+$lh-primary: 1.6;
+
+//  Container Sizing
+$max-width: 1170px;
+$fixed-width: 620px;
+
+
+
+// Background Color
+
+$bg: #eee;
+$bg-primary: darken($primary, 20);
+$bg-primary: lighten($primary, 40);
+$bg-secondary: #e0ffef;
+
+//  Focus Color
+$fc-1: #212529;
+$fc-2: #0095ff26;
+$fc-input: #86b7fe;
+
+//  Border color
+$border-dark: 1px solid $black-3;
+$border-light: 1px solid #a8a7a7;
+$border-primary: 1px solid $primary;
+$border-secondary: 1px solid $secondary;
+$border-dotted: #ccc 1px dotted;
+
+//  Transition
+$transition-linear: all 0.3s linear;
+$transition-ease: all 0.5s 0s ease;
+$transition: transform 200ms cubic-bezier(0.18, 0.89, 0.32, 1.28);
+// Box Shadow
+$bs-simple: 0 0 20px rgba(0, 0, 0, 0.15);
+$bs: 0 2px 8px rgba(0, 0, 0, 0.25);
+$bs-rg: 0 5px 1.5rem rgba(0, 0, 0, 0.1);
+$bs-sm: 0 5px 1.5rem rgba(0, 0, 0, 0.2);
+$bs-lg: 0 14px 28px rgba(0, 0, 0, 0.6);
+$bs-input: 0 5px 1.5rem rgba(0, 0, 0, 0.2);
