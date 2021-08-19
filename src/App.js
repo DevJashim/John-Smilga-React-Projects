@@ -1,12 +1,12 @@
 // ==App.js========================================
-import BirthdayReminder from "./components/BirthdayReminder";
+
+import TourApp from "./components/TourApp";
 import "./sass/main.scss";
 
 const App = () => {
   return (
     <>
-    
-    <BirthdayReminder/>
+      <TourApp />
     </>
   );
 };

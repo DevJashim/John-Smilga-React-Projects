@@ -16,7 +16,7 @@ const Three = () => {
 
   return (
     <div className="three">
-      <h1> Component Three</h1>
+      <h1> C</h1>
       <h2>{date.toLocaleTimeString(locale)}</h2>
       <h2>{date.toLocaleDateString(locale)}</h2>
       <button onClick={toggleLocale}>

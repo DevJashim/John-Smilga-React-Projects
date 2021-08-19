@@ -13,7 +13,7 @@ const Four = () => {
 
   return (
     <div className="four center">
-      <h1> Component Four</h1>
+      <h1> D</h1>
       {(state && <h1>না </h1>) || <h1>হ্যা </h1>}
       {state ? <h1>হ্যা</h1> : <h1>না </h1>}
       <button onClick={toggle}>Toggle</button>

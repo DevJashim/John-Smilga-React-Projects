@@ -1,5 +1,13 @@
 // Conditional Rendering
 
+import React, { useState } from "react";
+
+// 0. Conditional render variable
+
+const name = "Paris Tour";
+const info =
+  "Paris is synonymous with the finest things that culture can offer — in art, fashion, food, literature, and ideas. On this tour, your Paris-savvy Rick Steves guide will immerse you in the very best of the City of Light: the masterpiece-packed Louvre and Orsay museums, resilient Notre-Dame Cathedral, exquisite Sainte-Chapelle, and extravagant Palace of Versailles!";
+
 // 1. Conditional render object
 const objects = [
   { id: 1, name: "John" },
@@ -23,9 +31,19 @@ const renderArray = () => {
 };
 
 const Two = () => {
+  // ************* state values *******************
+  const [readMore, setReadMore] = useState(false);
   return (
     <div className="two">
-      <h1>Component Two</h1>
+      <h1>B</h1>
+      <div>
+        <p>
+          {readMore ? info : `${info.substring(0, 100)}...`}
+          <button onClick={() => setReadMore(!readMore)}>
+            {readMore ? "show less" : "read more"}
+          </button>
+        </p>
+      </div>
       {/* 2. Other way Conditional Render Array as List */}
       <h2>Iterate Array </h2>
       {renderArray()}

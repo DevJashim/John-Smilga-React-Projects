@@ -13,7 +13,7 @@ const Five = () => {
 
   return (
     <div className="four center">
-      <h1> Component Five</h1>
+      <h1> E</h1>
       <h1>{yesOrNo}</h1>
       <h1>{yayOrNay}</h1>
     </div>

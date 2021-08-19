@@ -12,7 +12,7 @@ const One = () => {
 
   return (
     <div className="one">
-      <h1> Component One</h1>
+      <h1> A</h1>
       {/* 1.conditional render using TERNARY OPERATOR*/}
       {isLoggedIn ? <h2>Welcome {user.name} </h2> : <h2>Please Signup Guest </h2>}
 

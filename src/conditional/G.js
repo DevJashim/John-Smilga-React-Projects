@@ -18,7 +18,7 @@ const Seven = () => {
 
   return (
     <div className="three center">
-      <h1>Component Seven</h1>
+      <h1>G</h1>
       {isVisible ? <img src={pic} alt="sample" /> : <h2>I'm hidden</h2>}
       {/* Can use as variable */}
       {album}

@@ -1,0 +1,59 @@
+.components {
+  display: flex;
+  justify-content: center;
+
+  .one {
+    background: #e2c5c5;
+    text-align: center;
+    width: 40vw;
+    margin: 1rem;
+  }
+  .two {
+    background: #daf8e1;
+    text-align: center;
+    width: 40vw;
+    margin: 1rem;
+  }
+  .three {
+    background: #cfc2ff;
+    text-align: center;
+    width: 40vw;
+    margin: 1rem;
+  }
+  .four {
+    background: #c9fab3;
+    text-align: center;
+    width: 40vw;
+    margin: 1rem;
+  }
+}
+
+// Button
+
+button,
+.btn {
+  margin: 1rem;
+  display: inline-block;
+  background: $black-1;
+  border: 1px solid $black-1;
+  color: $white;
+  font-size: $fs-primary;
+  padding: 1rem;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  transition: $transition-linear;
+  // Button Hover
+  &:hover {
+    color: $black-1;
+    background: transparent;
+  }
+}
+
+
+// Read More button
+p > button {
+  color: $green-2;
+  border: none;
+  padding: 0;
+    background-color: transparent;
+}

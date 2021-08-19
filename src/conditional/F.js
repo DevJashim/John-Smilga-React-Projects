@@ -8,7 +8,7 @@ const Six = () => {
 
   return (
     <div className="four center">
-      <h1> Component Six</h1>
+      <h1> F</h1>
       <ul>
         {list.length > 0 && list.map((item) => <li key={item}>{item} </li>)}
       </ul>
