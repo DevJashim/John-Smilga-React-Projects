@@ -1,12 +1,12 @@
 // ==App.js========================================
 
-import TourApp from "./components/TourApp";
+import ReviewsApp from "./components/ReviewsApp";
 import "./sass/main.scss";
 
 const App = () => {
   return (
     <>
-      <TourApp />
+      <ReviewsApp />
     </>
   );
 };
