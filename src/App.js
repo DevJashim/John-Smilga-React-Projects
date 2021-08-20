@@ -1,12 +1,13 @@
 // ==App.js========================================
 
-import ReviewsApp from "./components/ReviewsApp";
+import MenuApp from "./components/MenuApp";
+
 import "./sass/main.scss";
 
 const App = () => {
   return (
     <>
-      <ReviewsApp />
+      <MenuApp />
     </>
   );
 };
