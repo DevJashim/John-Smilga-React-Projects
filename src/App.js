@@ -1,12 +1,11 @@
 // ==App.js========================================
-
-import TabApp from "./components/TabApp";
+import Slider from "./components/Slider";
 import "./sass/main.scss";
 
 const App = () => {
   return (
     <>
-     <TabApp/>
+      <Slider />
     </>
   );
 };
